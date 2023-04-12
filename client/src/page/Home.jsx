@@ -26,7 +26,7 @@ const Home = () => {
         if (form.prompt) {
             try {
                 setGeneratingImg(true);
-                const response = await fetch('http://localhost:8080/api/dalle2', {
+                const response = await fetch('https://digitaloasis-backend.up.railway.app/api/dalle2', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ const Home = () => {
         if (form.prompt && form.image) {
             setLoading(true);
             try {
-                const response = await fetch('http://localhost:8080/api/posts', {
+                const response = await fetch('https://digitaloasis-backend.up.railway.app/api/posts', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

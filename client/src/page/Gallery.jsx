@@ -27,7 +27,7 @@ const Gallery = () => {
         setLoading(true);
     
         try {
-          const response = await fetch("http://localhost:8080/api/posts", {
+          const response = await fetch("https://digitaloasis-backend.up.railway.app/api/posts", {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
