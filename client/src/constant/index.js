@@ -22,5 +22,5 @@ export const randomPrompts = [
     'Spongebob Squarepants in a horror film',
     'Supervillain, in the style of a Pixar animated movie',
     'Blade Runner Cyberpunk',
-    'Basebeball player sliding into home base, digital art'
+    'Baseball player sliding into home base, digital art'
 ];
