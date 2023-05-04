@@ -94,7 +94,7 @@ const Home = () => {
                             <h1 className="font-extrabold text-onbackground text-[32px]" id="create">Create</h1>
                             <p className="mt-2 text-onbackground text-[14px] max-w-[500px]">Try our art generator to create your own unique artwork through DALL-E AI.</p>
                             <ul className='text-onbackground text-[14px] mt-2 list-disc list-inside'>
-                                <li>Type in a prompt and click generate</li>
+                                <li>Type in a prompt and click "Generate"</li>
                                 <li>Click "Random" to get a generated prompt</li>
                                 <li className='mb-5'>Click "Share to the Gallery" to save your creation</li>
                             </ul>
