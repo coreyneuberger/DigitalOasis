@@ -95,7 +95,7 @@ const Home = () => {
                             <p className="mt-2 text-onbackground text-[14px] max-w-[500px]">Try our art generator to create your own unique artwork through DALL-E AI.</p>
                             <ul className='text-onbackground text-[14px] mt-2 list-disc list-inside'>
                                 <li>Type in a prompt and click generate</li>
-                                <li>Click random to get a generated prompt</li>
+                                <li>Click "Random" to get a generated prompt</li>
                                 <li className='mb-5'>Click "Share to the Gallery" to save your creation</li>
                             </ul>
                         </div>
@@ -109,7 +109,7 @@ const Home = () => {
                             LabelName="Prompt"
                             type="text"
                             name="prompt"
-                            placeholder="Biker guy riding a tricycle"
+                            placeholder="Baseball player sliding into home base, digital art"
                             value={form.prompt}
                             handleChange={handleChange}
                             randomPrompt
