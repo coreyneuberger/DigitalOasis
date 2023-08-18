@@ -27,7 +27,7 @@ const Gallery = () => {
         setLoading(true);
     
         try {
-          const response = await fetch("https://digital-oasis-backend.vercel.app/api/posts", {
+          const response = await fetch("/api/posts", {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
