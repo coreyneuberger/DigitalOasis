@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
 
   server: {
-    host: true
+    proxy: {
+      '/api': 'https://digital-oasis-backend.vercel.app'
+    }
   },
 })
