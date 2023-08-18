@@ -9,7 +9,9 @@ import postRoutes from './routes/postRoutes.js';
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: 'https://digital-oasis.vercel.app'
+}));
 app.use(express.json({ limit: '50mb' }));
 
 app.use('/api/posts', postRoutes);
